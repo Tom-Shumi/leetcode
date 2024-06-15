@@ -9,6 +9,7 @@ class Solution {
     }
 
     Arrays.sort(sort);
+    // Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
     int start = sort[0].start;
     int end = sort[0].end;
 
